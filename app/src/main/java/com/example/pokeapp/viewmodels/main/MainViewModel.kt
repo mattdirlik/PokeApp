@@ -1,4 +1,4 @@
-package com.example.pokeapp.viewmodels
+package com.example.pokeapp.viewmodels.main
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

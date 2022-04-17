@@ -1,4 +1,4 @@
-package com.example.pokeapp.ui
+package com.example.pokeapp.ui.main
 
 import android.view.LayoutInflater
 import android.view.View

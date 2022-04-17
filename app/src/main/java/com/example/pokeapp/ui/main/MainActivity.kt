@@ -1,13 +1,14 @@
-package com.example.pokeapp.ui
+package com.example.pokeapp.ui.main
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.example.pokeapp.viewmodels.MainViewModel
+import com.example.pokeapp.viewmodels.main.MainViewModel
 import com.example.pokeapp.R
 import com.example.pokeapp.constants.NameConstants
+import com.example.pokeapp.ui.detail.PokemonDetailActivity
 import org.koin.androidx.viewmodel.ext.android.viewModel
 
 class MainActivity : AppCompatActivity() {
