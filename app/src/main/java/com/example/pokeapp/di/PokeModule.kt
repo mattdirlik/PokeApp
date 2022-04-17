@@ -2,7 +2,8 @@ package com.example.pokeapp.di
 
 import com.example.pokeapp.data.PokeRepository
 import com.example.pokeapp.data.PokeApi
-import com.example.pokeapp.viewmodels.MainViewModel
+import com.example.pokeapp.viewmodels.detail.DetailViewModel
+import com.example.pokeapp.viewmodels.main.MainViewModel
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import org.koin.androidx.viewmodel.dsl.viewModel
@@ -10,9 +11,15 @@ import org.koin.dsl.module
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
-val viewModelModule = module {
+val mainModule = module {
     viewModel {
         MainViewModel(get())
+    }
+}
+
+val detailModule = module {
+    viewModel {
+        DetailViewModel(get())
     }
 }
 
