@@ -1,5 +1,5 @@
 # PokeApp
-Demo app using MVVM architecture and the standard Android Kotlin stack!
+Barebones demo app using MVVM architecture and the standard Android Kotlin stack!
 
 ## Libraries Used:
 - OkHttp: API calls
