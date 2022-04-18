@@ -33,7 +33,6 @@ class MainActivity : AppCompatActivity() {
 
     private fun prepareRecyclerView() {
         val recyclerView = findViewById<RecyclerView>(R.id.textBox)
-        recyclerView.layoutManager = LinearLayoutManager(this)
         adapter = MainAdapter()
         recyclerView.adapter = adapter
 
