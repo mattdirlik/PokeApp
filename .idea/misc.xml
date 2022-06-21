@@ -5,7 +5,7 @@
       <map>
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.3296875" />
         <entry key="app/src/main/res/layout/list_item.xml" value="0.16875" />
-        <entry key="app/src/main/res/layout/pokemon_detail_activity.xml" value="0.32760416666666664" />
+        <entry key="app/src/main/res/layout/pokemon_detail_activity.xml" value="0.5" />
       </map>
     </option>
   </component>

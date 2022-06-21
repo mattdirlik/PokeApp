@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="max_hp">255</integer>
+    <integer name="max_attack">190</integer>
+    <integer name="max_def">230</integer>
+</resources>
